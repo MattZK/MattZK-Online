@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,70.9995,26.0606)">
+        <path d="M58.292,104.297L58.358,104.299L60.187,104.43L60.302,104.44L61.094,104.534L62.248,104.676L63.064,104.813L64.147,104.999L64.98,105.18L66.014,105.41L66.853,105.633L67.847,105.905L68.687,106.171L69.644,106.483L70.482,106.792L71.216,107.071C70.44,118.281 65.087,128.237 57.018,135.076C48.832,128.142 43.445,118.011 42.785,106.608L42.866,106.578L43.749,106.282L44.6,106.007L45.43,105.767L46.367,105.513L47.175,105.317L48.169,105.097L48.961,104.941L50.007,104.762L50.78,104.644L51.895,104.508L52.626,104.429L53.877,104.338L54.538,104.294L54.744,104.287L56.388,104.251L58.292,104.297Z" style="fill:rgb(0,188,212);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,70.9995,26.0606)">
+        <path d="M105.938,104.251C90.498,99.345 74.056,96.698 57,96.698C39.945,96.697 23.503,99.345 8.063,104.251L57,17.84L105.938,104.251ZM83.133,87.862C74.626,86.426 65.896,85.679 57,85.679C48.104,85.679 39.375,86.426 30.868,87.862L57,40.033L83.133,87.862Z" style="fill:rgb(0,188,212);"/>
+    </g>
+    <g transform="matrix(0.333579,0,0,0.333579,-3.08836,211.517)">
+        <text x="0px" y="0px" style="font-family:'AvenirNext-UltraLight', 'Avenir Next', sans-serif;font-weight:275;font-size:87.342px;">P</text>
+    </g>
+    <g transform="matrix(0.333579,0,0,0.333579,14.0302,211.517)">
+        <text x="0px" y="0px" style="font-family:'AvenirNext-UltraLight', 'Avenir Next', sans-serif;font-weight:275;font-size:87.342px;">RO<tspan x="124.899px 166.823px 218.355px 281.067px 326.135px 347.971px " y="0px 0px 0px 0px 0px 0px ">JECT Z</tspan>EPPELIN</text>
+    </g>
+</svg>
