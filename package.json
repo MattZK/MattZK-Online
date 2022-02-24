@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "serve": "npx parcel index.html",
+    "build": "npx parcel --build index.html"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.3.2",
+    "@parcel/transformer-sass": "^2.3.2",
+    "@parcel/transformer-webmanifest": "^2.3.2"
+  }
+}

@@ -12,8 +12,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,600,700|Rubik:400,700" media="none" onload="if(media!=='all')media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,600,700|Rubik:400,700"></noscript>
-  <link rel="stylesheet" href="css/main.min.css" media="none" onload="if(media!=='all')media='all'">
-  <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
+  <link rel="stylesheet" href="css/main.scss" media="none" onload="if(media!=='all')media='all'">
+  <noscript><link rel="stylesheet" href="css/main.scss"></noscript>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
         <span>Matthias <span>Willemsen</span></span>
         <ul>
           <li onclick="methods.scroll('about-section')">About</li>
-          <li onclick="methods.scroll('skills-section')">Skills</li>
+          <!-- <li onclick="methods.scroll('skills-section')">Skills</li>s -->
           <li onclick="methods.scroll('projects-section')">Projects</li>
           <li onclick="window.location = 'mailto:web@mattwill.be'">Contact</li>
         </ul>
@@ -45,7 +45,7 @@
     <section id="about-section">
       <h2>About Me</h2>
       <p>I'm a student Computer Science @ University Gent. In addition to my studies, I do many other things in the tech world. I freelance for multiple companies, building amazing and scalable applications.
-        I recently acquired the CTO position at District Three Lier, further enforcing my position within the tech world. Next to the business perspective of things, I try to volunteer and help the next generation achieve higher levels of problem solving and critical thinking. Just scroll down to learn more about me!</p>
+          Next to the business perspective of things, I try to volunteer and help the next generation achieve higher levels of problem solving and critical thinking. Just scroll down to learn more about me!</p>
     </section>
     <section id="things-section">
       <h2>Technical World</h2>
@@ -65,16 +65,10 @@
               lasercutter, a CNC Machine and two Ultimaker 2+ 3D Printers. My job is to make sure everything goes well
               and to answer any questions people may have.</p>
           </div>
-          <div class="item">
-            <img src="img/things/district3.svg" alt="District Three Logo">
-            <p><b>District Three</b> I'm the CTO at the coworking and makerspace District Three
-              Lier. With a large amount of electronics supplies and technical machines it's the perfect place to
-              experiment and create. District Three is also the ideal working environment for freelance work.</p>
-          </div>
         </div>
       </div>
     </section>
-    <section class="fs" id="skills-section">
+    <!-- <section class="fs" id="skills-section">
       <div class="container">
         <h2>Web Development</h2>
         <h5>These are the technologies I use the most</h5>
@@ -115,23 +109,83 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section id="projects-section">
       <div class="container">
         <h2>Projects</h2>
         <h5>A list of projects, both personal and commercial.</h5>
-        <div class="btn-container">
+        <!-- <div class="btn-container">
           <div class="btn disabled">Websites</div>
           <div class="btn disabled">Web Apps</div>
           <div class="btn disabled">Case Studies</div>
-        </div>
+        </div> -->
         <div class="grid">
 
           <div class="item">
-            <img src="img/projects/ccg.svg" alt="CCG Logo">
-            <p><b>Creative Cooling Group</b></p>
+            <img src="img/projects/red_cross_flanders.svg" alt="Undisclosed Logo">
+            <p><b>Red Cross Flanders</b> An advanced scheduling and booking app for company trainings. A BEEGO Project.</p>
             <div class="tags">
-              <span class="tag">Upcoming Project</span>
+              <span class="status tag">Active Project</span>
+              <span class="ref tag">Web App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">NestJS</span>
+              <span class="tech tag">Angular</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/projects/find_your_talent.svg" alt="Find Your Talent Logo">
+            <p><b>Find Your Talent</b> A mobile app to help youth find their talents. In cooperation with iDrops.</p>
+            <div class="tags">
+              <span class="status tag">Active Project</span>
+              <span class="ref tag">Mobile App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">NestJS</span>
+              <span class="tech tag">Ionic</span>
+              <span class="tech tag">K3s</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/projects/beego.png" alt="BEEGO Logo">
+            <p><b>BEEGO</b> A custom online platform for BEEGO to manage their consultants and workflow.</p>
+            <div class="tags">
+              <span class="status tag">Active Project</span>
+              <span class="ref tag">Web App</span>
+              <span class="ref tag">Mobile App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">NestJS</span>
+              <span class="tech tag">Angular</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/projects/fablab.png" alt="FabLab Logo">
+            <p><b>FabLab</b> A user management and user interaction tool. Web app and mobile app to be available on IOS & Android</p>
+            <div class="tags">
+              <span class="status tag">Active Project</span>
+              <span class="ref tag">Web App</span>
+              <span class="ref tag">Mobile App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">NestJS</span>
+              <span class="tech tag">Angular</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/projects/ccg.svg" alt="CCG Logo">
+            <p><b>Creative Cooling Group</b> A web app for renting out and tracking coolers. Including an interface for independent installers.</p>
+            <div class="tags">
+              <span class="ref tag">Web App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">NestJS</span>
+              <span class="tech tag">Angular</span>
+              <span class="tech tag">K3s</span>
             </div>
           </div>
 
@@ -139,17 +193,13 @@
             <img src="img/projects/district_three_new.svg" alt="District Three Logo">
             <p><b>District Three</b> Building an IoT platform to connect all kinds of smart devices. Ranging from climate control to access and motions devices.</p>
             <div class="tags">
-              <span class="tag">Active Project</span>
-              <span class="tag">Team</span>
+              <span class="ref tag">Web App</span>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="img/projects/beego.png" alt="BEEGO Logo">
-            <p><b>BEEGO</b> Building a custom online platform for BEEGO to manage their consultants and workflow.</p>
             <div class="tags">
-              <span class="tag">Active Project</span>
-              <span class="tag">Team</span>
+              <span class="tech tag">MQTT & Kafka</span>
+              <span class="tech tag">NestJS</span>
+              <span class="tech tag">Angular</span>
+              <span class="tech tag">K3s</span>
             </div>
           </div>
 
@@ -157,7 +207,10 @@
             <img src="img/projects/kiyo.svg" alt="Mira Systems Logo">
             <p><b>Action4Rights</b> Development of the Action4Rights Platform. A MEAN Stack Web Application for children to create actions, share feedback and communicate with each other. Helping them in their search for identity. </p>
             <div class="tags">
-              <span class="tag">MEAN Stack</span>
+              <span class="ref tag">Web App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">MEAN Stack</span>
             </div>
           </div>
 
@@ -165,17 +218,11 @@
             <img src="img/projects/mirasystems.svg" alt="Mira Systems Logo">
             <p><b>Mira Systems</b> A web development company I created to design modular web applications.</p>
             <div class="tags">
-              <span class="tag">In-House Project</span>
-              <span class="tag">Team</span>
+              <span class="ref tag">Company</span>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="img/projects/fablab.png" alt="FabLab Logo">
-            <p><b>FabLab</b> Creating a flutter app for access control and user logging. To be available on IOS & Android</p>
             <div class="tags">
-              <span class="tag">Work In Progress</span>
-              <span class="tag">Flutter</span>
+              <span class="tech tag">In-House Project</span>
+              <span class="tech tag">Team</span>
             </div>
           </div>
 
@@ -183,9 +230,12 @@
             <img src="img/projects/farmlab.png" alt="FarmLab Logo">
             <p><b>FarmLab</b> An IoT Smart Hydroponics farm with an intuitive web portal to view sensors, actuators and overall state.</p>
             <div class="tags">
-              <span class="tag">Education</span>
-              <span class="tag">IoT</span>
-              <span class="tag">MEAN Stack</span>
+              <span class="ref tag">Web App</span>
+              <span class="ref tag">Hardware</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">Education</span>
+              <span class="tech tag">MEAN Stack</span>
             </div>
           </div>
 
@@ -193,28 +243,19 @@
             <img src="img/projects/idrops.png" alt="iDrops Logo">
             <p><b>iDrops</b> Week long robot workshop with the youth of FedAsil Lommel. Brought by Studio Digital, an iDrops initiative.</p>
             <div class="tags">
-              <span class="tag">Workshop</span>
+              <span class="ref tag">Workshop</span>
             </div>
           </div>
-
-          <!-- <div class="item">
-            <img src="img/projects/mirax.png" alt="Mira X Logo">
-            <p><b>Mira X</b> Project created for PK. Consists of a fully automated home system from hardware to
-              software. This project is in the planning stage and will begin in February 2018.</p>
-            <div class="tags">
-              <span class="tag">Future Project</span>
-              <span class="tag">Home Automation</span>
-              <span class="tag">IoT</span>
-            </div>
-          </div> -->
 
           <div class="item">
             <img src="img/projects/districtthree.svg" alt="District Three Logo">
             <p><b>District Three</b> A front and back-end website for District Three Lier. This includes an inventory
               and user system built for the future with new technologies.</p>
             <div class="tags">
-              <span class="tag">Work In Progress</span>
-              <span class="tag">Mean Stack</span>
+              <span class="ref tag">Web App</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">Mean Stack</span>
             </div>
           </div>
 
@@ -222,9 +263,11 @@
             <img src="img/projects/atech.png" alt="Atech Logo">
             <p><b>Atech NV</b> A Wordpress templated created for Atech NV, a transmission company based in Oelegem.</p>
             <div class="tags">
-              <span class="tag">CMS</span>
-              <span class="tag">Wordpress</span>
-              <span class="tag">Template</span>
+              <span class="ref tag">Web Site</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">CMS</span>
+              <span class="tech tag">Wordpress</span>
             </div>
           </div>
 
@@ -234,8 +277,11 @@
               project has a database of multiple programming languages and it's programming ways. It's hosted on GitHub
               and is editable by anyone. This project was created together with Tom Meyers</p>
             <div class="tags">
-              <span class="tag">VueJS</span>
-              <span class="tag">Open-Source</span>
+              <span class="ref tag">Web Site</span>
+            </div>
+            <div class="tags">
+              <span class="tech tag">VueJS</span>
+              <span class="tech tag">Open-Source</span>
             </div>
           </div>
 
@@ -245,17 +291,14 @@
               actuators within a house. This ranges from lighting to heating. This app was built on the cordova
               platform.</p>
             <div class="tags">
-              <span class="tag">Home Automation</span>
-              <span class="tag">Cordova</span>
-              <span class="tag">IoT</span>
+              <span class="ref tag">Web App</span>
+              <span class="ref tag">Web Site</span>
+              <span class="ref tag">Hardware</span>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="img/projects/fablab.png" alt="FabLab Logo">
-            <p><b>FabLab</b> Webplatform concept for user management and user interaction at FabLab Zandhoven.</p>
             <div class="tags">
-              <span class="tag">MEAN Stack</span>
+              <span class="tech tag">Home Automation</span>
+              <span class="tech tag">Cordova</span>
+              <span class="tech tag">IoT</span>
             </div>
           </div>
 
